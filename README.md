@@ -15,18 +15,18 @@ Download from http://....
 Create database :
 
 mysql> describe restaurantattr;
-+----------------+--------------+------+-----+---------+-------+
-| Field          | Type         | Null | Key | Default | Extra |
-+----------------+--------------+------+-----+---------+-------+
-| restaurantId   | int(11)      | YES  |     | NULL    |       |
-| restaurantName | varchar(255) | YES  |     | NULL    |       |
-| location       | varchar(255) | YES  |     | NULL    |       |
-| price          | double       | YES  |     | NULL    |       |
-| cuisine        | varchar(255) | YES  |     | NULL    |       |
-| allergyAlerts  | varchar(255) | YES  |     | NULL    |       |
-| atmosphere     | varchar(255) | YES  |     | NULL    |       |
-| rating         | int(11)      | YES  |     | NULL    |       |
-+----------------+--------------+------+-----+---------+-------+
++----------------+--------------+------+-----+---------+-------+<br>
+| Field          | Type         | Null | Key | Default | Extra |<br>
++----------------+--------------+------+-----+---------+-------+<br>
+| restaurantId   | int(11)      | YES  |     | NULL    |       |<br>
+| restaurantName | varchar(255) | YES  |     | NULL    |       |<br>
+| location       | varchar(255) | YES  |     | NULL    |       |<br>
+| price          | double       | YES  |     | NULL    |       |<br>
+| cuisine        | varchar(255) | YES  |     | NULL    |       |<br>
+| allergyAlerts  | varchar(255) | YES  |     | NULL    |       |<br>
+| atmosphere     | varchar(255) | YES  |     | NULL    |       |<br>
+| rating         | int(11)      | YES  |     | NULL    |       |<br>
++----------------+--------------+------+-----+---------+-------+<br>
 
 ## Examples
 
