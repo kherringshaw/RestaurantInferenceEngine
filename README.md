@@ -14,7 +14,7 @@ Download from http://....
 
 Create database :
 
-mysql> describe restaurantattr;
+mysql> describe restaurantattr;<br><br>
 +----------------+--------------+------+-----+---------+-------+<br>
 | Field          | Type         | Null | Key | Default | Extra |<br>
 +----------------+--------------+------+-----+---------+-------+<br>
