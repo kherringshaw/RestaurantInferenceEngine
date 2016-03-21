@@ -1,20 +1,32 @@
 # test1
 
-FIXME: description
+Restaurant Selection Inference Engine
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download from http://....
 
 ## Usage
-
-FIXME: explanation
 
     $ java -jar test1-0.1.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+Create database :
+
+mysql> describe restaurantattr;
++----------------+--------------+------+-----+---------+-------+
+| Field          | Type         | Null | Key | Default | Extra |
++----------------+--------------+------+-----+---------+-------+
+| restaurantId   | int(11)      | YES  |     | NULL    |       |
+| restaurantName | varchar(255) | YES  |     | NULL    |       |
+| location       | varchar(255) | YES  |     | NULL    |       |
+| price          | double       | YES  |     | NULL    |       |
+| cuisine        | varchar(255) | YES  |     | NULL    |       |
+| allergyAlerts  | varchar(255) | YES  |     | NULL    |       |
+| atmosphere     | varchar(255) | YES  |     | NULL    |       |
+| rating         | int(11)      | YES  |     | NULL    |       |
++----------------+--------------+------+-----+---------+-------+
 
 ## Examples
 
